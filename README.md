@@ -11,8 +11,6 @@ Agent 一键生成高性价比、兼容的整机搭配方案，并通过 Stripe 
 commerce-agent-project/
 ├── .env.example
 ├── .gitignore
-├── CLAUDE.md
-├── PROJECT.MD
 ├── README.md
 ├── requirements.txt
 ├── data/
