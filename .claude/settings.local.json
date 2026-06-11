@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python -m venv .venv)",
+      "Bash(.venv/Scripts/pip install *)",
+      "Bash(python -c ' *)",
+      "Bash(.venv/Scripts/streamlit run *)",
+      "Bash(ls .env)",
+      "Bash(ls .venv/Scripts/python.exe)",
+      "Bash(ls .venv/Scripts/streamlit.exe)",
+      "Bash(taskkill //F //IM streamlit.exe)",
+      "Bash(taskkill //F //IM python.exe)",
+      "Bash(sleep 5 && cat /c/Users/Dell/AppData/Local/Temp/claude/d--University-NLP-Chatbots-NLP-project/81815f33-a993-4707-8e5d-2568c2f8914d/tasks/b7w8upozw.output 2>/dev/null | head -20)",
+      "Read(//c/Users/Dell/AppData/Local/Temp/claude/d--University-NLP-Chatbots-NLP-project/81815f33-a993-4707-8e5d-2568c2f8914d/tasks/**)"
+    ]
+  }
+}

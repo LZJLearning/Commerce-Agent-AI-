@@ -1,0 +1,456 @@
+[
+  {
+    "id": "cpu-001",
+    "name": "Intel 酷睿 i5-14400F",
+    "category": "CPU",
+    "price": 1299,
+    "socket": "LGA1700",
+    "tdp": 65,
+    "tags": ["游戏", "高性价比", "入门甜品", "14代酷睿", "Intel-LGA1700", "低功耗"],
+    "stock": 200
+  },
+  {
+    "id": "cpu-002",
+    "name": "Intel 酷睿 i5-14600KF",
+    "category": "CPU",
+    "price": 1899,
+    "socket": "LGA1700",
+    "tdp": 125,
+    "tags": ["游戏", "高性价比", "14代酷睿", "Intel-LGA1700", "可超频", "中端主力"],
+    "stock": 120
+  },
+  {
+    "id": "cpu-003",
+    "name": "Intel 酷睿 i7-14700K",
+    "category": "CPU",
+    "price": 2799,
+    "socket": "LGA1700",
+    "tdp": 125,
+    "tags": ["视频剪辑", "3D渲染", "高性能计算", "14代酷睿", "Intel-LGA1700", "可超频", "高端全能"],
+    "stock": 85
+  },
+  {
+    "id": "cpu-004",
+    "name": "Intel 酷睿 i9-14900K",
+    "category": "CPU",
+    "price": 4399,
+    "socket": "LGA1700",
+    "tdp": 150,
+    "tags": ["旗舰", "视频剪辑", "3D渲染", "AI训练", "14代酷睿", "Intel-LGA1700"],
+    "stock": 30
+  },
+  {
+    "id": "cpu-005",
+    "name": "AMD 锐龙 5 7600",
+    "category": "CPU",
+    "price": 1199,
+    "socket": "AM5",
+    "tdp": 65,
+    "tags": ["游戏", "入门AM5", "高性价比", "低功耗", "AMD-AM5"],
+    "stock": 150
+  },
+  {
+    "id": "cpu-006",
+    "name": "AMD 锐龙 7 7800X3D",
+    "category": "CPU",
+    "price": 2499,
+    "socket": "AM5",
+    "tdp": 120,
+    "tags": ["游戏之王", "3D V-Cache", "高性价比", "AMD-AM5", "中端主力"],
+    "stock": 60
+  },
+  {
+    "id": "cpu-007",
+    "name": "AMD 锐龙 9 7950X3D",
+    "category": "CPU",
+    "price": 4299,
+    "socket": "AM5",
+    "tdp": 120,
+    "tags": ["游戏", "视频剪辑", "旗舰", "3D V-Cache", "AMD-AM5"],
+    "stock": 35
+  },
+  {
+    "id": "gpu-001",
+    "name": "NVIDIA GeForce RTX 4060",
+    "category": "显卡",
+    "price": 2199,
+    "tdp": 115,
+    "tags": ["RTX-4060", "1080p游戏", "入门光追", "性价比之王", "DLSS 3", "低功耗"],
+    "stock": 200
+  },
+  {
+    "id": "gpu-002",
+    "name": "NVIDIA GeForce RTX 4060 Ti 8GB",
+    "category": "显卡",
+    "price": 3199,
+    "tdp": 160,
+    "tags": ["RTX-4060-Ti", "2K游戏", "视频剪辑", "AI推理", "DLSS 3", "甜品级"],
+    "stock": 150
+  },
+  {
+    "id": "gpu-003",
+    "name": "NVIDIA GeForce RTX 4070 Super",
+    "category": "显卡",
+    "price": 4799,
+    "tdp": 220,
+    "tags": ["RTX-4070", "2K高刷", "4K入门", "视频剪辑", "3D渲染", "DLSS 3", "中高端"],
+    "stock": 90
+  },
+  {
+    "id": "gpu-004",
+    "name": "NVIDIA GeForce RTX 4070 Ti Super",
+    "category": "显卡",
+    "price": 6499,
+    "tdp": 285,
+    "tags": ["RTX-4070-Ti", "4K游戏", "视频剪辑", "AI训练", "DLSS 3", "高端"],
+    "stock": 55
+  },
+  {
+    "id": "gpu-005",
+    "name": "NVIDIA GeForce RTX 4080 Super",
+    "category": "显卡",
+    "price": 8299,
+    "tdp": 320,
+    "tags": ["RTX-4080", "4K游戏", "旗舰", "视频剪辑", "AI训练", "DLSS 3"],
+    "stock": 40
+  },
+  {
+    "id": "gpu-006",
+    "name": "AMD Radeon RX 7600",
+    "category": "显卡",
+    "price": 1799,
+    "tdp": 165,
+    "tags": ["RX-7600", "1080p游戏", "入门", "高性价比", "AMD显卡", "低功耗"],
+    "stock": 120
+  },
+  {
+    "id": "gpu-007",
+    "name": "AMD Radeon RX 7800 XT 16GB",
+    "category": "显卡",
+    "price": 3899,
+    "tdp": 263,
+    "tags": ["RX-7800-XT", "2K游戏", "16GB大显存", "高性价比", "AMD显卡", "中高端"],
+    "stock": 70
+  },
+  {
+    "id": "mb-001",
+    "name": "微星 MAG B760M MORTAR WIFI II",
+    "category": "主板",
+    "price": 1099,
+    "socket": "LGA1700",
+    "form_factor": "M-ATX",
+    "ram_type": "DDR5",
+    "tags": ["Intel-LGA1700", "M-ATX", "DDR5", "WiFi6E", "性价比之选", "中端"],
+    "stock": 100
+  },
+  {
+    "id": "mb-002",
+    "name": "技嘉 B760M AORUS ELITE",
+    "category": "主板",
+    "price": 899,
+    "socket": "LGA1700",
+    "form_factor": "M-ATX",
+    "ram_type": "DDR5",
+    "tags": ["Intel-LGA1700", "M-ATX", "DDR5", "入门", "性价比", "技嘉"],
+    "stock": 130
+  },
+  {
+    "id": "mb-003",
+    "name": "华硕 ROG STRIX Z790-A GAMING WIFI",
+    "category": "主板",
+    "price": 2699,
+    "socket": "LGA1700",
+    "form_factor": "ATX",
+    "ram_type": "DDR5",
+    "tags": ["Intel-LGA1700", "ATX", "DDR5", "旗舰", "超频", "ROG", "白色"],
+    "stock": 50
+  },
+  {
+    "id": "mb-004",
+    "name": "华硕 TUF GAMING B650M-PLUS WIFI",
+    "category": "主板",
+    "price": 1199,
+    "socket": "AM5",
+    "form_factor": "M-ATX",
+    "ram_type": "DDR5",
+    "tags": ["AMD-AM5", "M-ATX", "DDR5", "PCIe 5.0", "军规用料", "中端"],
+    "stock": 80
+  },
+  {
+    "id": "mb-005",
+    "name": "微星 MAG B650 TOMAHAWK WIFI",
+    "category": "主板",
+    "price": 1599,
+    "socket": "AM5",
+    "form_factor": "ATX",
+    "ram_type": "DDR5",
+    "tags": ["AMD-AM5", "ATX", "DDR5", "高端", "超频", "WiFi6E"],
+    "stock": 60
+  },
+  {
+    "id": "mb-006",
+    "name": "华擎 B650M PG Riptide",
+    "category": "主板",
+    "price": 799,
+    "socket": "AM5",
+    "form_factor": "M-ATX",
+    "ram_type": "DDR5",
+    "tags": ["AMD-AM5", "M-ATX", "DDR5", "入门", "高性价比", "华擎"],
+    "stock": 90
+  },
+  {
+    "id": "ram-001",
+    "name": "金士顿 FURY Beast 16GB (8G×2) DDR5 5600MHz",
+    "category": "内存",
+    "price": 399,
+    "ram_type": "DDR5",
+    "capacity_gb": 16,
+    "speed_mhz": 5600,
+    "tags": ["DDR5", "16GB", "入门", "高性价比", "金士顿"],
+    "stock": 300
+  },
+  {
+    "id": "ram-002",
+    "name": "金士顿 FURY Beast 32GB (16G×2) DDR5 6000MHz",
+    "category": "内存",
+    "price": 699,
+    "ram_type": "DDR5",
+    "capacity_gb": 32,
+    "speed_mhz": 6000,
+    "tags": ["DDR5", "32GB", "高频率", "游戏标配", "金士顿", "主流"],
+    "stock": 200
+  },
+  {
+    "id": "ram-003",
+    "name": "芝奇 Trident Z5 RGB 32GB (16G×2) DDR5 7200MHz",
+    "category": "内存",
+    "price": 999,
+    "ram_type": "DDR5",
+    "capacity_gb": 32,
+    "speed_mhz": 7200,
+    "tags": ["DDR5", "32GB", "高频", "RGB灯效", "芝奇", "旗舰", "超频"],
+    "stock": 80
+  },
+  {
+    "id": "ram-004",
+    "name": "芝奇 Trident Z5 64GB (32G×2) DDR5 6400MHz",
+    "category": "内存",
+    "price": 1599,
+    "ram_type": "DDR5",
+    "capacity_gb": 64,
+    "speed_mhz": 6400,
+    "tags": ["DDR5", "64GB", "视频剪辑", "3D渲染", "大容量", "芝奇"],
+    "stock": 75
+  },
+  {
+    "id": "ram-005",
+    "name": "光威 32GB (16G×2) DDR5 6000MHz",
+    "category": "内存",
+    "price": 499,
+    "ram_type": "DDR5",
+    "capacity_gb": 32,
+    "speed_mhz": 6000,
+    "tags": ["DDR5", "32GB", "国产", "极致性价比", "光威"],
+    "stock": 150
+  },
+  {
+    "id": "ssd-001",
+    "name": "西部数据 SN770 1TB NVMe M.2 PCIe 4.0",
+    "category": "固态硬盘",
+    "price": 499,
+    "capacity_gb": 1024,
+    "interface": "NVMe M.2 PCIe 4.0",
+    "tags": ["性价比之王", "PCIe 4.0", "1TB", "西部数据", "入门", "主流"],
+    "stock": 250
+  },
+  {
+    "id": "ssd-002",
+    "name": "三星 990 EVO 1TB NVMe M.2 PCIe 4.0",
+    "category": "固态硬盘",
+    "price": 649,
+    "capacity_gb": 1024,
+    "interface": "NVMe M.2 PCIe 4.0",
+    "tags": ["高速读写", "PCIe 4.0", "1TB", "三星", "中端"],
+    "stock": 180
+  },
+  {
+    "id": "ssd-003",
+    "name": "三星 990 PRO 2TB NVMe M.2 PCIe 4.0",
+    "category": "固态硬盘",
+    "price": 1199,
+    "capacity_gb": 2048,
+    "interface": "NVMe M.2 PCIe 4.0",
+    "tags": ["高速读写", "PCIe 4.0", "2TB", "旗舰SSD", "三星"],
+    "stock": 150
+  },
+  {
+    "id": "ssd-004",
+    "name": "致态 TiPlus7100 2TB NVMe M.2 PCIe 4.0",
+    "category": "固态硬盘",
+    "price": 899,
+    "capacity_gb": 2048,
+    "interface": "NVMe M.2 PCIe 4.0",
+    "tags": ["国产", "PCIe 4.0", "2TB", "高性价比", "长江存储", "致态"],
+    "stock": 100
+  },
+  {
+    "id": "ssd-005",
+    "name": "西部数据 SN850X 2TB NVMe M.2 PCIe 4.0",
+    "category": "固态硬盘",
+    "price": 1299,
+    "capacity_gb": 2048,
+    "interface": "NVMe M.2 PCIe 4.0",
+    "tags": ["旗舰", "PCIe 4.0", "2TB", "游戏", "西部数据", "高速缓存"],
+    "stock": 80
+  },
+  {
+    "id": "psu-001",
+    "name": "酷冷至尊 MWE 650W 铜牌",
+    "category": "电源",
+    "price": 349,
+    "wattage": 650,
+    "certification": "80+ Bronze",
+    "modular": "非模组",
+    "tags": ["650W", "铜牌", "入门", "高性价比", "酷冷至尊"],
+    "stock": 200
+  },
+  {
+    "id": "psu-002",
+    "name": "海韵 FOCUS GX-750 金牌全模组",
+    "category": "电源",
+    "price": 699,
+    "wattage": 750,
+    "certification": "80+ Gold",
+    "modular": "全模组",
+    "tags": ["750W", "金牌", "全模组", "静音", "10年质保", "海韵", "主流"],
+    "stock": 120
+  },
+  {
+    "id": "psu-003",
+    "name": "长城 G7 750W 金牌全模组",
+    "category": "电源",
+    "price": 499,
+    "wattage": 750,
+    "certification": "80+ Gold",
+    "modular": "全模组",
+    "tags": ["750W", "金牌", "全模组", "国产", "高性价比", "长城"],
+    "stock": 150
+  },
+  {
+    "id": "psu-004",
+    "name": "振华 LEADEX HG 850W 金牌全模组",
+    "category": "电源",
+    "price": 849,
+    "wattage": 850,
+    "certification": "80+ Gold",
+    "modular": "全模组",
+    "tags": ["850W", "金牌", "全模组", "高功率", "旗舰推荐", "振华"],
+    "stock": 90
+  },
+  {
+    "id": "psu-005",
+    "name": "海韵 PRIME TX-1000 钛金全模组",
+    "category": "电源",
+    "price": 2199,
+    "wattage": 1000,
+    "certification": "80+ Titanium",
+    "modular": "全模组",
+    "tags": ["1000W", "钛金", "全模组", "旗舰", "静音", "12年质保", "海韵"],
+    "stock": 30
+  },
+  {
+    "id": "cooler-001",
+    "name": "九州风神 玄冰400 V5",
+    "category": "散热器",
+    "price": 79,
+    "type": "风冷",
+    "tdp_support": 180,
+    "tags": ["风冷", "单塔", "入门", "极致性价比", "九州风神"],
+    "stock": 300
+  },
+  {
+    "id": "cooler-002",
+    "name": "利民 Peerless Assassin 120 SE",
+    "category": "散热器",
+    "price": 199,
+    "type": "风冷",
+    "tdp_support": 260,
+    "tags": ["风冷", "双塔", "性价比之王", "静音", "260W解热", "利民"],
+    "stock": 180
+  },
+  {
+    "id": "cooler-003",
+    "name": "猫头鹰 NH-D15 chromax.black",
+    "category": "散热器",
+    "price": 699,
+    "type": "风冷",
+    "tdp_support": 300,
+    "tags": ["风冷", "双塔", "旗舰", "极致静音", "猫头鹰", "黑色"],
+    "stock": 40
+  },
+  {
+    "id": "cooler-004",
+    "name": "九州风神 冰堡垒 360 水冷",
+    "category": "散热器",
+    "price": 599,
+    "type": "水冷",
+    "tdp_support": 350,
+    "tags": ["水冷", "360冷排", "ARGB", "旗舰级解热", "颜值担当", "九州风神"],
+    "stock": 60
+  },
+  {
+    "id": "cooler-005",
+    "name": "瓦尔基里 GL360 VK 水冷",
+    "category": "散热器",
+    "price": 699,
+    "type": "水冷",
+    "tdp_support": 360,
+    "tags": ["水冷", "360冷排", "ARGB", "网红", "高性能", "瓦尔基里"],
+    "stock": 50
+  },
+  {
+    "id": "case-001",
+    "name": "先马 平头哥 M2 迷你机箱",
+    "category": "机箱",
+    "price": 149,
+    "form_factor_support": ["M-ATX", "ITX"],
+    "tags": ["M-ATX", "极致性价比", "入门", "紧凑", "先马"],
+    "stock": 250
+  },
+  {
+    "id": "case-002",
+    "name": "联力 LANCOOL 216 中塔机箱",
+    "category": "机箱",
+    "price": 399,
+    "form_factor_support": ["ATX", "M-ATX", "ITX"],
+    "tags": ["中塔", "散热优秀", "高兼容性", "性价比之选", "前置Type-C", "联力"],
+    "stock": 130
+  },
+  {
+    "id": "case-003",
+    "name": "恩杰 H5 Flow 中塔机箱",
+    "category": "机箱",
+    "price": 549,
+    "form_factor_support": ["ATX", "M-ATX", "ITX"],
+    "tags": ["中塔", "极简风", "优秀风道", "高颜值", "侧透", "恩杰"],
+    "stock": 70
+  },
+  {
+    "id": "case-004",
+    "name": "海盗船 4000D Airflow 中塔机箱",
+    "category": "机箱",
+    "price": 649,
+    "form_factor_support": ["ATX", "M-ATX", "ITX"],
+    "tags": ["中塔", "优秀风道", "海盗船", "侧透", "高兼容性", "主流"],
+    "stock": 90
+  },
+  {
+    "id": "case-005",
+    "name": "追风者 NV7 全塔机箱",
+    "category": "机箱",
+    "price": 1299,
+    "form_factor_support": ["E-ATX", "ATX", "M-ATX", "ITX"],
+    "tags": ["全塔", "旗舰", "ARGB", "展柜", "水冷友好", "追风者"],
+    "stock": 25
+  }
+]
